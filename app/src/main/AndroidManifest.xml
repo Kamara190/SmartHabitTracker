@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartHabitTracker">
+
+        <activity
+            android:name="com.example.smarthabittracker.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.smarthabittracker.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.smarthabittracker.AddHabitActivity"
+            android:exported="false"
+            android:label="Add Habit" />
+
+        <activity
+            android:name="com.example.smarthabittracker.SignUpActivity"
+            android:exported="false"
+            android:label="Sign Up" />
+
+        <activity
+            android:name="com.example.smarthabittracker.SettingsActivity"
+            android:exported="false"
+            android:label="Settings" />
+
+    </application>
+
+</manifest>

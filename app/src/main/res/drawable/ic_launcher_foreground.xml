@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Circle Ring -->
+    <path
+        android:pathData="M54,14 C31.9,14 14,31.9 14,54 C14,76.1 31.9,94 54,94 C76.1,94 94,76.1 94,54 C94,31.9 76.1,14 54,14 Z M54,20 C72.8,20 88,35.2 88,54 C88,72.8 72.8,88 54,88 C35.2,88 20,72.8 20,54 C20,35.2 35.2,20 54,20 Z"
+        android:fillColor="#6200EE" />
+
+    <!-- Checkmark representing Habit Completion -->
+    <path
+        android:pathData="M38,54 L48,64 L70,42"
+        android:strokeColor="#6200EE"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Progress Dots -->
+    <path
+        android:pathData="M54,24 A2,2 0 1,1 54.01,24"
+        android:strokeColor="#03DAC5"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M84,54 A2,2 0 1,1 84.01,54"
+        android:strokeColor="#03DAC5"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,84 A2,2 0 1,1 54.01,84"
+        android:strokeColor="#03DAC5"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M24,54 A2,2 0 1,1 24.01,54"
+        android:strokeColor="#03DAC5"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+</vector>
